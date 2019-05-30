@@ -1,0 +1,66 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(./images/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.square{
+  width: 450px;
+  height: 700px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 15px;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+}
+
+.image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.square h1{
+  font-size: 42px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.square h5{
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.square p{
+  text-align: justify;
+  font-family: Verdana, sans-serif;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.square li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+
+.square li a{
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  transition: all ease-in-out 100ms;
+}
+
+.square li a:hover{
+  color: #b9b9b9;
+  font-size: 43px;
+}
