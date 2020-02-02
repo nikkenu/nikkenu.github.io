@@ -2,143 +2,131 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Niklas Nurminen</title>
+    <!--portfolio header work-->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <title></title>
   </head>
   <body>
-      <header>
-        <div class="menu">
+    <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="landing-text">
+        <h1>Niklas Nurminen</h1>
+        <h6>Software Engineer</h6>
+      </div>
+    </header>
 
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img">
+          <img src="images/pic.jpg" alt="">
         </div>
-
-        <!-- Navigation bar in the top of the website -->
-        <nav class="upper-nav">
-          <ul class="list-nav">
+        <div class="about-details">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+             nisi ut aliquip ex ea commodo consequat.
+             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+             non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="social-media">
+          <ul class="nav-list">
             <li>
-              <a href="index.html" class="link-nav">Home</a>
+              <a href="#" class="icon-link">
+                <i class="fa fa-github-square"></i>
+              </a>
             </li>
             <li>
-              <a href="#about" class="link-nav">About</a>
-            </li>
-            <li>
-              <a href="#portfolio" class="link-nav">Portfolio</a>
-            </li>
-            <li>
-              <a href="#experience" class="link-nav">Experience</a>
+              <a href="#" class="icon-link">
+                <i class="fa fa-linkedin-square"></i>
+              </a>
             </li>
           </ul>
-        </nav>
+        </div>
+      </div>
+    </section>
 
-        <!--  -->
-        <div class="front-text">
-          <h1>Niklas Nurminen</h1>
-          <h6>Software developer</h6>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Portfolio</h1>
+          <h6>My recent works</h6>
         </div>
 
-        <!-- about section -->
-        <section class="about" id="about">
-          <div class="container">
-            <div class="face-img">
-              <img src="images/pic.jpg" alt="">
-              <div class="about-details">
-                <div class="about-heading">
-                  <h1>About</h1>
-                  <h6>Myself</h6>
-                </div>
-                <p>Add here information about yourself later...</p>
-              </div>
-
-              <div class="some">
-                <ul class="list-nav">
-                  <li>
-                    <li>
-                      <a href="#" class="some-icon">
-                        <i class="fab fa-linkedin square"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="some-icon">
-                        <i class="fab fa-github square"></i>
-                      </a>
-                    </li>
-                  </li>
-                </ul>
-              </div>
-            </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img">
+            <img src="images/pic.jpg" alt="">
           </div>
-        </section>
-
-        <!-- portfolio section -->
-        <section class="portfolio" id="porfolio">
-          <div class="container">
-            <div class="section-heading">
-              <h1>Projects</h1>
-            </div>
-
-            <div class="project-item">
-              <div class="project-img">
-                <img src="images/bg.jpg" alt="">
-                <div class="project-description">
-                  <h6>Snake game</h6>
-                  <p>C++ Qt</p>
-                  <a href="#" class="cta">Link to project files</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="project-item">
-              <div class="project-img">
-                <img src="images/bg.jpg" alt="">
-                <div class="project-description">
-                  <h6>Orienteering project</h6>
-                  <p>C++</p>
-                  <a href="#" class="cta">Link to project files</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="project-item">
-              <div class="project-img">
-                <img src="images/bg.jpg" alt="">
-                <div class="project-description">
-                  <h6>Library project</h6>
-                  <p>C++</p>
-                  <a href="#" class="cta">Link to project files</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="project-item">
-              <div class="project-img">
-                <img src="images/bg.jpg" alt="">
-                <div class="project-description">
-                  <h6>Paisti game</h6>
-                  <p>Python</p>
-                  <a href="#" class="cta">Link to project files</a>
-                </div>
-              </div>
-            </div>
-
-
+          <div class="portfolio-description">
+            <h6>Add here somethign</h6>
+            <h1>Blaa blaa add here</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna al
+            </p>
+            <a href="#" class="cta">View Details</a>
           </div>
-        </section>
+        </div>
 
-        <!-- experience section -->
-        <section class="experience" id="experience">
-          <div class="container">
-            <div class="section-heading">
-              <h1>Empty for now</h1>
-            </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img">
+            <img src="images/pic.jpg" alt="">
           </div>
+          <div class="portfolio-description">
+            <h6>Add here somethign</h6>
+            <h1>Blaa blaa add here</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna al
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+        </div>
 
-        </section>
+        <div class="portfolio-item">
+          <div class="portfolio-img">
+            <img src="images/pic.jpg" alt="">
+          </div>
+          <div class="portfolio-description">
+            <h6>Add here somethign</h6>
+            <h1>Blaa blaa add here</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna al
+            </p>
+            <a href="#" class="cta">View Details</a>
+          </div>
+        </div>
 
-      </header>
+      </div>
+    </section>
 
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </body>
 </html>
