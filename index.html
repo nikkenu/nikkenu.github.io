@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Niklas Nurminen</title>
-    <!--portfolio header work-->
+    <title>Niklas Nurminen - Portfolio</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
+
       <div class="menu-toggler">
         <div class="bar half start"></div>
         <div class="bar"></div>
         <div class="bar half end"></div>
       </div>
+
       <nav class="top-nav">
         <ul class="nav-list">
           <li>
@@ -25,14 +26,22 @@
             <a href="#about" class="nav-link">About</a>
           </li>
           <li>
-            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
       </nav>
+
       <div class="landing-text">
         <h1>Niklas Nurminen</h1>
-        <h6>Software Engineer</h6>
+        <h6>Information Technology Student</h6>
       </div>
+
     </header>
 
     <section class="about" id="about">
@@ -45,88 +54,85 @@
             <h1>About</h1>
             <h6>Myself</h6>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-             nisi ut aliquip ex ea commodo consequat.
-             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-             dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-             non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+          <p>Add here something about myself later, yep
+          way later, when everything else is done yep
+        </p>
         </div>
         <div class="social-media">
-          <ul class="nav-list">
+          <div class="nav-list">
             <li>
               <a href="#" class="icon-link">
-                <i class="fa fa-github-square"></i>
+                <i class="fab fa-linkedin-square"></i>
               </a>
             </li>
             <li>
               <a href="#" class="icon-link">
-                <i class="fa fa-linkedin-square"></i>
+                <i class="fab fa-github-square"></i>
               </a>
             </li>
-          </ul>
+          </div>
         </div>
+
       </div>
     </section>
 
-    <section class="portfolio" id="portfolio">
+    <section class="education" id="education">
       <div class="container">
         <div class="section-heading">
-          <h1>Portfolio</h1>
-          <h6>My recent works</h6>
-        </div>
-
-        <div class="portfolio-item">
-          <div class="portfolio-img">
-            <img src="images/pic.jpg" alt="">
-          </div>
-          <div class="portfolio-description">
-            <h6>Add here somethign</h6>
-            <h1>Blaa blaa add here</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna al
-            </p>
-            <a href="#" class="cta">View Details</a>
+          <div class="timeline">
+            <ul>
+              <li class="date" data-date="XXXX - Preset">
+                <h1>School X</h1>
+                <p>Something about the school x</p>
+              </li>
+            </ul>
           </div>
         </div>
-
-        <div class="portfolio-item">
-          <div class="portfolio-img">
-            <img src="images/pic.jpg" alt="">
-          </div>
-          <div class="portfolio-description">
-            <h6>Add here somethign</h6>
-            <h1>Blaa blaa add here</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna al
-            </p>
-            <a href="#" class="cta">View Details</a>
-          </div>
-        </div>
-
-        <div class="portfolio-item">
-          <div class="portfolio-img">
-            <img src="images/pic.jpg" alt="">
-          </div>
-          <div class="portfolio-description">
-            <h6>Add here somethign</h6>
-            <h1>Blaa blaa add here</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna al
-            </p>
-            <a href="#" class="cta">View Details</a>
-          </div>
-        </div>
-
       </div>
     </section>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Projects</h1>
+        </div>
+        <div class="project-item">
+          <div class="project-img">
+            <img src="images/test_portfolio.jpg" alt="">
+          </div>
+          <div class="project-description">
+            <h6>Project X</h6>
+            <h1>Something asdasdasd</h1>
+            <p>Description text for Project X</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+        </div>
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="" placeholder="Enter your name..." required>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="" placeholder="Enter your email..." required>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+        <p>&copy; 2020 Niklas Nurminen</p>
+      </div>
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script type="main.js"></script>
   </body>
 </html>
