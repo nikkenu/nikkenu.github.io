@@ -6,11 +6,10 @@
     <title>Niklas Nurminen - Portfolio</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   </head>
   <body>
     <header>
-
       <div class="menu-toggler">
         <div class="bar half start"></div>
         <div class="bar"></div>
@@ -41,13 +40,12 @@
         <h1>Niklas Nurminen</h1>
         <h6>Information Technology Student</h6>
       </div>
-
     </header>
 
     <section class="about" id="about">
       <div class="container">
         <div class="profile-img">
-          <img src="images/pic.jpg" alt="">
+          <img src="images/pic2.jpg" alt="">
         </div>
         <div class="about-details">
           <div class="about-heading">
@@ -57,12 +55,11 @@
           <p>Add here something about myself later, yep
           way later, when everything else is done yep
         </p>
-        </div>
         <div class="social-media">
           <div class="nav-list">
             <li>
               <a href="#" class="icon-link">
-                <i class="fab fa-linkedin-square"></i>
+                <i class="fab fa-linkedin"></i>
               </a>
             </li>
             <li>
@@ -72,38 +69,52 @@
             </li>
           </div>
         </div>
-
+        </div>
       </div>
     </section>
 
     <section class="education" id="education">
       <div class="container">
         <div class="section-heading">
-          <div class="timeline">
-            <ul>
-              <li class="date" data-date="XXXX - Preset">
-                <h1>School X</h1>
-                <p>Something about the school x</p>
-              </li>
-            </ul>
-          </div>
+          <h1>My School history</h1>
+          <h6>past and current school</h6>
+        </div>
+        <div class="timeline">
+          <ul>
+            <li class="date" data-date="2018 - Preset">
+              <h1>Tampere University of Technology</h1>
+              <h6>Bachelor's degree, Information Technology</h6>
+              <p>At the moment 140 ECTS</p>
+            </li>
+            <li class="date" data-date="2017 - 2018">
+              <h1>JAMK University of Applied Science</h1>
+              <h6>Bachelor of Engineering, Electrical and Automation Engineering</h6>
+              <p>Moved to another school after a year.</p>
+            </li>
+            <li class="date" data-date="2013 - 2016">
+              <h1>Jyväskylän Lyseon Lukio & Jyväskylän ammattiopisto</h1>
+              <h6>A double degree program</h6>
+              <p>I graduated from vocational school (electrician and automation technician)and high school.</p>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section class="projects" id="projects">
+    <section class="project" id="project">
       <div class="container">
         <div class="section-heading">
           <h1>Projects</h1>
         </div>
         <div class="project-item">
-          <div class="project-img">
+          <div class="project-img has-margin-right">
             <img src="images/test_portfolio.jpg" alt="">
           </div>
-          <div class="project-description">
+          <div class="project-description has-margin-right">
             <h6>Project X</h6>
             <h1>Something asdasdasd</h1>
             <p>Description text for Project X</p>
+            <a href="#" class="cta">View Details</a>
           </div>
         </div>
       </div>
@@ -119,7 +130,9 @@
           <input type="text" id="name" name="" placeholder="Enter your name..." required>
           <label for="email">Email</label>
           <input type="text" id="email" name="" placeholder="Enter your email..." required>
+          <textarea name="subject" id="subject" rows="10" cols="10"></textarea>
           <input type="submit" value="Submit">
+          <label for="subject">Subject:</label>
         </form>
       </div>
     </section>
@@ -133,6 +146,6 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script type="main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
