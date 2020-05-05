@@ -6,7 +6,7 @@
 
 html{
   font-size: 10px;
-  font-family: sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   color: #eee;
 }
 
@@ -119,7 +119,7 @@ li{
 }
 
 .nav-link{
-  font-family: sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   font-size: 5rem;
   padding: 1rem;
 }
@@ -196,8 +196,10 @@ li{
 
 .landing-text h1{
   font-size: 20rem;
-  font-family: sans-serif;
-  background: linear-gradient(to top, #434343, #000000);
+  font-family: 'Comfortaa', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #ffffff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
@@ -224,12 +226,13 @@ li{
 
 .about-heading h1{
   font-size: 10rem;
+  font-weight: 200;
   opacity: .3;
 }
 
 .about-heading h6{
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .profile-img{
@@ -334,7 +337,7 @@ li{
 .timeline h1{
   font-size: 2rem;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 200;
   margin-bottom: 1rem;
   opacity: .7;
 }
@@ -342,8 +345,13 @@ li{
 .timeline h6{
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  font-weight: 200;
   text-transform: uppercase;
   opacity: .5
+}
+
+.timeline p{
+  font-weight: 200;
 }
 
 .timeline .date{
