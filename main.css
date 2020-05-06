@@ -6,14 +6,14 @@
 
 html{
   font-size: 10px;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Space Mono', sans-serif;
   color: #eee;
 }
 
 body{
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #434343, #000000);
+  background-color: #111111;
 }
 
 section{
@@ -88,6 +88,18 @@ img{
   margin-right: 5rem;
 }
 
+.large-header{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+  /*background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");*/
+}
+
 header{
   width: 100%;
   height: 100vh;
@@ -119,7 +131,7 @@ li{
 }
 
 .nav-link{
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Space Mono', sans-serif;
   font-size: 5rem;
   padding: 1rem;
 }
@@ -155,7 +167,7 @@ li{
 }
 
 .bar{
-  background: linear-gradient(to right, #353535, #535355);
+  background: linear-gradient(to right, #ffffff, #343FFD);
   width: 100%;
   height: 4px;
   border-radius: .8rem;
@@ -196,7 +208,7 @@ li{
 
 .landing-text h1{
   font-size: 20rem;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Space Mono', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   background: #ffffff;
@@ -254,11 +266,11 @@ li{
 }
 
 .fa-linkedin:hover{
-  color: #535355;
+  color: #2867b2;
 }
 
 .fa-github-square:hover{
-  color: #353535;
+  color: #2867b2;
 }
 
 .icon-container{
@@ -314,7 +326,7 @@ li{
   margin-top: 2.5rem;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: #34dffd;
+  color: #2867b2;
   transition: color 650ms;
 }
 
@@ -394,7 +406,7 @@ li{
 }
 
 .contact{
-  background-color: #464523;
+  background-color: #111111;
 }
 
 form{
@@ -412,11 +424,12 @@ input,select,textarea{
   margin-bottom: 5px;
   border: none;
   outline-color: #f24233;
+  border-radius: 1rem;
 }
 
 input[type="submit"]{
   width: initial;
-  background-color: #f45666;
+  background-color: #343FFD;
   color: #eee;
   padding: 1rem 2rem;
   border: none;
@@ -427,7 +440,7 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
   color: #25452f;
-  background-color: #f35635;
+  background-color: #343FFD;
 }
 
 .copyright{
@@ -446,12 +459,15 @@ input[type="submit"]:hover{
   top: -2.5rem;
   right: 5rem;
   border-radius: 100%;
+  display: flex;
   animation: pulse 2s infinite;
+  cursor: pointer;
 }
 
 .up i{
   color: #24525f;
   font-size: 2rem;
+  margin: auto;
 }
 
 .copyright p{
@@ -460,12 +476,12 @@ input[type="submit"]:hover{
 
 @keyframes pulse {
   0%{
-    box-shadow:  0 0 0 0 rgba(253,87,191, 0.99);
+    box-shadow:  0 0 0 0 rgba(52,63,253, 0.99);
   }
   70%{
-    box-shadow:  0 0 0 0 rgba(253,87,191, 0);
+    box-shadow:  0 0 0 2rem rgba(52,63,253, 0);
   }
   100%{
-    box-shadow:  0 0 0 0 rgba(253,87,191, 0);
+    box-shadow:  0 0 0 0 rgba(52,63,253, 0);
   }
 }

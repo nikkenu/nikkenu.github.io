@@ -8,38 +8,43 @@
     <link rel="stylesheet" href="main.css">
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet" type="text/css">
   </head>
   <body>
     <header>
-      <div class="menu-toggler">
-        <div class="bar half start"></div>
-        <div class="bar"></div>
-        <div class="bar half end"></div>
-      </div>
+      <div class="large-header" id="large-header">
+        <canvas id="demo-canvas"></canvas>
+        <div class="menu-toggler">
+          <div class="bar half start"></div>
+          <div class="bar"></div>
+          <div class="bar half end"></div>
+        </div>
 
-      <nav class="top-nav">
-        <ul class="nav-list">
-          <li>
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li>
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li>
-            <a href="#education" class="nav-link">Education</a>
-          </li>
-          <li>
-            <a href="#projects" class="nav-link">Projects</a>
-          </li>
-          <li>
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="top-nav">
+          <ul class="nav-list">
+            <li>
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
 
-      <div class="landing-text">
-        <h1>Niklas Nurminen</h1>
-        <h6>Information Technology Student</h6>
+        <div class="landing-text">
+          <h1>Niklas Nurminen</h1>
+          <h6>Information Technology Student</h6>
+        </div>
+
       </div>
     </header>
 
@@ -130,9 +135,9 @@
           <input type="text" id="name" name="" placeholder="Enter your name..." required>
           <label for="email">Email</label>
           <input type="text" id="email" name="" placeholder="Enter your email..." required>
+          <label for="subject">Subject:</label>
           <textarea name="subject" id="subject" rows="10" cols="10"></textarea>
           <input type="submit" value="Submit">
-          <label for="subject">Subject:</label>
         </form>
       </div>
     </section>
@@ -140,12 +145,15 @@
     <footer class="copyright">
       <div class="up" id="up">
         <i class="fas fa-chevron-up"></i>
-        <p>&copy; 2020 Niklas Nurminen</p>
       </div>
+      <p>&copy; 2020 Niklas Nurminen</p>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
     <script src="main.js"></script>
   </body>
 </html>
